@@ -1,0 +1,65 @@
+.header-top {
+    padding-left: 1em;
+}
+.button-animation:hover {
+    width: 30px;
+    animation: go 3s;
+   
+}
+@keyframes go {
+    from {width: 60px; background-color: grey; }
+    to {width: 100px; background-color: orange;}
+}
+.carousel-item img{
+    height: 50vh;
+    object-fit: cover;
+    opacity: 0.5;
+}
+.spalva-juoda {
+    color: black;
+    font-size: 30px;
+}
+.color-orange {
+    color: orange;
+}
+.icon-size {
+    font-size: 1.5em;
+}
+.text-center {
+    text-align: center;
+}
+.line-height {
+    line-height: 2.5em;
+}
+.migtukas {
+    background-color: orange;
+    color: black;
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+    text-align: center;
+}
+.img-row:hover .migtukas {
+    position: relative;
+    left: 0rem;
+    bottom: 1rem;
+}
+.img-row {
+    filter: saturate(0.2);
+}
+.img-row:hover {
+    filter: opacity(0.6);
+    left: 0rem;
+    bottom: 1rem;
+}
+.bold {
+    font-weight: bolder;
+}
+.li-bold {
+    font-size: 25px;
+    font-weight: bold;
+}
+.small-let {
+    font-size: 10px;
+    line-height: 2em;
+}
